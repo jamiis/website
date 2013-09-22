@@ -1,0 +1,40 @@
+body {
+  background-color: #000000 !important;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+  color: white !important;
+}
+body .header {
+  border-bottom: none;
+}
+body .footer {
+  border-top: none;
+  color: white;
+}
+body .jumbotron {
+  border-bottom: none;
+}
+body .jumbotron h1 {
+  font-weight: 100;
+  font-size: 56px;
+}
+@media (min-width: 768px) {
+  body .jumbotron h1 {
+    font-size: 126px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+}
+body h4 {
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+body a {
+  color: white !important;
+  text-decoration: none;
+}
+body a:hover {
+  color: black !important;
+}
+body .jumbotron {
+  background-color: #000000;
+}

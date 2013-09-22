@@ -1,0 +1,37 @@
+// TODO css build needs to fix this import statement.
+//      my less files need access bootstrap variables.less
+@import "../js/components/bootstrap/less/variables.less";
+
+body {
+    @bg-color: black;
+    background-color: @bg-color !important;
+
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    color: white !important;
+
+    .header { border-bottom: none; }
+    .footer { border-top: none; color: white; }
+    .jumbotron {
+        border-bottom: none;
+        h1 {
+            font-weight: 100;
+            font-size: (@font-size-base * 4.0);
+            @media (min-width: @screen-tablet) {
+                font-size: (@font-size-base * 9.0);
+                margin-top: 10px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    h4 {
+        font-family: "Georgia", serif;
+        font-style: italic;
+    }
+
+    a { color: white !important; text-decoration:none; }
+    a:hover { color: black !important; }
+
+    .jumbotron {
+        background-color: @bg-color;
+    }
+}
