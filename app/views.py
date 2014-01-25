@@ -7,4 +7,4 @@ def index():
 
 @app.route('/partials/<name>')
 def partial(name):
-    return send_file('templates/partials/{0}'.format(name))
+    return render_template('partials/{0}'.format(name))
